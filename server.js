@@ -4,11 +4,11 @@ let path = require("path");
 
 let app = express();
 
-let PORT = process.env.PORT || 8080;
+let PORT = process.env.PORT || 8084;
 
 // API and HTML routes
-require("./app/routing/apiRoutes.js")(app);
-require("./app/routing/htmlRoutes.js")(app);
+// require("./app/routing/apiRoutes.js")(app);
+// require("./app/routing/htmlRoutes.js")(app);
 
 
 // Starting server to begin listening

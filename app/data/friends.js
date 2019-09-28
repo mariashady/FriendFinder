@@ -3,13 +3,13 @@ let friends = [
     {
         name: "Chandler",
         photo: "",
-        scores: [5, 2, 3, 4, 4, 5, 1, 2, 5, 5]
+        scores: [5, 2, 3, 4, 5, 3, 1, 2, 5, 5]
     },
 
     {
         name: "Joey",
         photo: "",
-        scores: [3, 1, 5, 2, 3, 5, 5, 2, 4, 5]
+        scores: [3, 1, 5, 2, 5, 4, 5, 2, 4, 5]
 
     },
 
@@ -30,12 +30,16 @@ let friends = [
         name: "Rachel",
         photo: "",
         scores: [2, 4, 4, 3, 2, 5, 4, 3, 4, 4 ]
-    ,}
+    },
 
     {
         name: "Ross",
         photo: "",
         scores: [1, 5, 5, 3, 4, 2, 1, 4, 2, 5]
     }
-]
+];
+
+module.exports = friends;
+
+
   

@@ -17,9 +17,9 @@ $(document).ready(function () {
         $.post("/api/friends", user)
             .done(function (data) {
                 console.log(data);
-                // use jquery to open modal
-                // use jquery to set img tag href 
-                // use jquery to set p tag
+                $("#match-name").text(data.name);
+                $("#match-img").attr("src", data.photo);
+                $("#results-modal").modal("toggle");
             });
     });
 

@@ -4,7 +4,7 @@
 * Built with: Nodejs, JavaScript, JQuery, Express
 
 ## Description:
-A "Friends" themed Express application that collects information from the user with a survery and finds the best match within the database. 
+A "Friends" themed Express application that collects information from the user with a survey and finds the best match within the database. 
 
 <img src = "images/homepage.png">
 
